@@ -133,6 +133,7 @@ A **dedicated fantasy-first platform** that eliminates distractions and delivers
 
 #### **Fantasy League Dashboard**
 ![League Dashboard](https://github.com/user-attachments/assets/a2e9427c-fb3e-4fd9-9464-6b569f5f0d1b)
+<br>
 *Comprehensive league overview showing all members, their fantasy teams, and current fantasy points*
 
 <br>
