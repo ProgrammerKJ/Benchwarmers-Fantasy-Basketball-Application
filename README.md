@@ -207,7 +207,6 @@ A **dedicated fantasy-first platform** that eliminates distractions and delivers
 
 ### **External Integrations**
 - **Sports Radar API:** Official NBA player statistics and game data
-- **Swagger Sports API:** Supplementary team and player information
 
 ### **DevOps & Testing**
 - **Docker Containerization:** Consistent development and deployment environments
