@@ -7,6 +7,24 @@
 
 ---
 
+## 🎥 Complete Application Demo
+
+### 📹 **Full Video Walkthrough**
+**[🏀 Watch the Complete Demo Video](https://www.loom.com/share/8f17ad6e098e4ccda269257761c8e888?sid=05886f45-7992-410c-9632-fefc7964966d)**
+
+*Experience the complete user journey from registration to active league participation! This comprehensive demo showcases all key features, including user authentication, admin league creation, player drafting mechanics, real-time leaderboards, and Sports Radar API integration - all built in just 4 intensive days.*
+
+**Demo Highlights:**
+- ✅ Complete user registration and role-based authentication
+- ✅ Admin league creation and management capabilities  
+- ✅ Real-time player drafting with availability constraints
+- ✅ Fantasy team building and roster management
+- ✅ Live leaderboards and performance tracking
+- ✅ NBA team browsing and individual player statistics
+- ✅ Sports Radar API integration for real-time data
+
+---
+
 ## 🎯 Project Vision
 
 Unlike major sports platforms that offer fantasy as just one small feature, **Benchwarmers** is built exclusively for NBA fantasy basketball. We created a streamlined, clutter-free experience that puts fantasy sports at the center of everything.
@@ -50,6 +68,124 @@ A **dedicated fantasy-first platform** that eliminates distractions and delivers
 - **Team Management:** Add, remove, and swap players throughout the season
 - **Performance Tracking:** Visual statistics and player performance charts
 - **League Analytics:** Detailed scoring breakdowns and trend analysis
+
+---
+
+## 📸 Application Screenshots
+
+### 🏠 **Landing Experience**
+
+#### **Landing Page - Banner**
+![Landing Page Banner](https://github.com/user-attachments/assets/dfdcaef8-99e4-403a-ac90-2bd71382ca7b)
+*Clean, basketball-themed welcome banner with compelling call-to-action and clear navigation*
+
+<br>
+<br>
+<br>
+
+#### **Landing Page - Highlights**
+![Landing Page Highlights](https://github.com/user-attachments/assets/a3a669f7-846d-4cf6-a9fc-44ffc9d4f779)
+*Feature highlights showcasing the platform's unique fantasy-first approach and key capabilities*
+
+<br>
+<br>
+<br>
+
+---
+
+### 🔐 **User Authentication**
+
+#### **Signup Popup**
+![Signup Modal](https://github.com/user-attachments/assets/19e1407e-757a-4b63-be01-41cc51230997)
+*Streamlined user registration with TypeScript form validation and favorite team selection*
+
+<br>
+<br>
+<br>
+
+#### **Login Popup**
+![Login Modal](https://github.com/user-attachments/assets/705cdd2d-7263-44fd-a276-1108fc04e05e)
+*Secure JWT authentication with clean modal design and error handling*
+
+<br>
+<br>
+<br>
+
+---
+
+### 🏆 **League Management**
+
+#### **Join League Page**
+![Join League Interface](https://github.com/user-attachments/assets/a4331f46-a267-48d4-9305-c0d4299051cc)
+*Browse and join existing fantasy leagues with detailed league information and member counts*
+
+<br>
+<br>
+<br>
+
+#### **Create League Page**
+![Create League Interface](https://github.com/user-attachments/assets/37d4116a-7d33-48e3-8f4e-98f006dcd8f7)
+*Admin-only league creation with custom settings and season configuration*
+
+<br>
+<br>
+<br>
+
+#### **Fantasy League Dashboard**
+![League Dashboard](https://github.com/user-attachments/assets/a2e9427c-fb3e-4fd9-9464-6b569f5f0d1b)
+*Comprehensive league overview showing all members, their fantasy teams, and current fantasy points*
+
+<br>
+<br>
+<br>
+
+---
+
+### 🎯 **Team Building & Player Management**
+
+#### **Edit Fantasy Team Page**
+![Team Builder Interface](https://github.com/user-attachments/assets/c2ee9867-29ab-4f99-ba0b-7a1bd82c9539)
+*Strategic player selection with real-time availability tracking and position-based organization*
+
+<br>
+<br>
+<br>
+
+#### **Fantasy Top Performers Graph**
+![Top Performers Chart](https://github.com/user-attachments/assets/4d463f85-c21c-407c-800f-e05f0820d453)
+*Dynamic Chart.js visualization displaying top 25 fantasy league performers with real-time updates*
+
+<br>
+<br>
+<br>
+
+---
+
+### 🏀 **NBA Data Integration**
+
+#### **Team Section Page**
+![All Teams Overview](https://github.com/user-attachments/assets/f525a523-9f61-4e56-82fa-e1db72d600ef)
+*Complete NBA team directory with interactive logos leading to individual team pages*
+
+<br>
+<br>
+<br>
+
+#### **Individual Team Section Page**
+![Team Details View](https://github.com/user-attachments/assets/bc310f22-3943-4a40-ba8e-5ee2a2988d23)
+*Detailed team roster showing starting 5 players with comprehensive statistics and team information*
+
+<br>
+<br>
+<br>
+
+#### **Player Details Page**
+![Player Statistics](https://github.com/user-attachments/assets/c28b0cc8-08ea-403f-99ef-471eb0dc3c6a)
+*Live player statistics and performance metrics powered by Sports Radar API integration*
+
+<br>
+<br>
+<br>
 
 ---
 
@@ -236,121 +372,6 @@ npm start
 - **Modern Architecture:** Professional-grade Spring Boot backend with React frontend
 - **Team Collaboration:** Successful coordination across frontend and backend development
 - **Production-Ready:** Containerized deployment with proper security implementations
-
----
-
-## 🎥 Video Walkthrough
-
-### 📹 **Complete Application Demo**
-*Coming Soon - Full video demonstration showcasing:*
-
-- **User Authentication:** Registration and login process with role assignment
-- **League Management:** Admin creating leagues and managing members
-- **Player Drafting:** Complete drafting process with availability constraints
-- **Team Building:** Adding, removing, and swapping players on fantasy teams
-- **Real-Time Updates:** Live leaderboard and statistics tracking
-- **Cross-Role Functionality:** Switching between admin and user perspectives
-- **API Integration:** Sports Radar data feeding into player statistics
-- **Responsive Design:** Application performance across different screen sizes
-
-*Video will demonstrate the full user journey from account creation to active league participation, highlighting the technical complexity achieved in our 4-day development sprint.*
-
----
-
-## 📸 Application Screenshots
-
-### 🏠 User Experience Flow
-
-#### **Authentication & Onboarding**
-*Screenshots coming soon:*
-- Landing page with clean, basketball-themed design
-- User registration form with validation
-- Secure login interface
-- Role-based dashboard differences (Admin vs User)
-
-<br>
-<br>
-<br>
-
-#### **League Management System**
-*Screenshots coming soon:*
-- League browsing and discovery interface
-- Admin league creation with custom settings
-- Member invitation and management panel
-- League details and settings overview
-
-<br>
-<br>
-<br>
-
-#### **Player Drafting Experience**
-*Screenshots coming soon:*
-- Complete NBA player database with filtering
-- Real-time player availability during drafting
-- Team roster building interface
-- Position-based player organization
-- Player statistics and performance metrics
-
-<br>
-<br>
-<br>
-
-#### **Fantasy Team Management**
-*Screenshots coming soon:*
-- Personal team dashboard with current roster
-- Player swap and management interface
-- Team performance analytics and charts
-- Individual player detailed statistics
-
-<br>
-<br>
-<br>
-
-#### **Competitive Features**
-*Screenshots coming soon:*
-- Live league leaderboard with real-time scoring
-- Head-to-head matchup displays
-- Historical performance tracking
-- League standings and ranking system
-
-<br>
-<br>
-<br>
-
----
-
-### 🎛️ **Admin Panel Features**
-
-#### **League Administration**
-*Screenshots coming soon:*
-- Admin dashboard with league oversight
-- Member management and permissions
-- League settings modification interface
-- User role assignment and control
-
-<br>
-<br>
-<br>
-
-#### **System Management**
-*Screenshots coming soon:*
-- Player database management
-- League creation and deletion interface
-- User management and moderation tools
-- System statistics and analytics dashboard
-
-<br>
-<br>
-<br>
-
----
-
-### 📱 **Responsive Design Showcase**
-*Screenshots coming soon:*
-- Desktop view optimization
-- Tablet interface adaptation
-- Mobile-responsive design
-- Cross-browser compatibility demonstration
 
 ---
 
