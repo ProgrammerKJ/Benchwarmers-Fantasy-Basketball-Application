@@ -1,0 +1,24 @@
+@url = http://localhost:8080/api/app-user
+@authToken = eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiZW5jaHdhcm1lcnMiLCJzdWIiOiJhbmtsZWJyZWFrZXIiLCJhdXRob3JpdGllcyI6IlJPTEVfQURNSU4iLCJleHAiOjE3NDQ4NzE2Nzd9.8mYyHwQnFnO28zdq5SdLYmn_YrxohxWTV8fkFgAUjz4
+
+### Get all users
+GET {{url}} HTTP/1.1
+Accept: application/json
+Authorization: Bearer {{authToken}}
+
+### Update a User
+PUT {{url}}/test
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "email" : "updatedEmail@email.com",
+  "favorite_team" : "KNICKS",
+  "disabled": false,
+  "password" : "UpdatedP@SSWORD!",
+  "role" : "ADMIN"
+}
+
+### Delete a User
+DELETE {{url}}/4 HTTP/1.1
+Authorization: Bearer {{authToken}}

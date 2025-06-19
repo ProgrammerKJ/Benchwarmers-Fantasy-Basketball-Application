@@ -1,0 +1,46 @@
+@url = http://localhost:8080/api/player
+@token = eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiZW5jaHdhcm1lcnMiLCJzdWIiOiJhbmtsZWJyZWFrZXIiLCJhdXRob3JpdGllcyI6IlJPTEVfQURNSU4iLCJleHAiOjE3NDQ4NzI1OTB9.z_V60r1fp1wU1TOQhWX5Tc10-PaD2quGXCXC84lYh9c
+### Get players by position
+GET {{url}}/position/PG HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get top players
+GET {{url}}/top-leaders HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get player by name
+GET {{url}}/Jalen/Brunson HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Add Player to Database
+POST {{url}} HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "firstName": "Jayson",
+    "lastName": "Tatum",
+    "position": "PF",
+    "jerseyNumber": 0,
+    "fantasyPoints": 3328.0,
+    "team": "CELTICS"
+}
+
+### Update Player in Database
+PUT {{url}}/4
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+        "playerId": 4,
+        "firstName": "Jalen",
+        "lastName": "Williams",
+        "position": "SG",
+        "jerseyNumber": 8,
+        "fantasyPoints": 2684.0,
+        "team": "KNICKS"
+}
+
+### Delete Player from Database
+DELETE {{url}}/5 HTTP/1.1
+Authorization: Bearer {{token}}

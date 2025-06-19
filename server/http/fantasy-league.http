@@ -1,0 +1,39 @@
+@baseUrl = http://localhost:8080/api/fantasy-league
+@authToken = eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiZW5jaHdhcm1lcnMiLCJzdWIiOiJhbmtsZWJyZWFrZXIiLCJhdXRob3JpdGllcyI6IlJPTEVfQURNSU4iLCJleHAiOjE3NDQ4NjU0ODV9.xbR8x937YoRwOJUa8rOC5DGksW_x1vN94QkhbzTi2UY
+#### Get all fantasy leagues
+GET {{baseUrl}}
+Accept: application/json
+Authorization: Bearer {{authToken}}
+
+#### Get a fantasy league by id
+GET {{baseUrl}}/1
+Accept: application/json
+Authorization: Bearer {{authToken}}
+
+#### create a new fantasy league
+POST {{baseUrl}}
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "name": "NewLeagueTest",
+  "season": 2025,
+  "adminName": "anklebreaker"
+}
+
+
+### Update the Fantasy League
+PUT {{baseUrl}}/4
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "name" : "updatedName",
+  "season" : 2012
+}
+
+### Delete the Fantasy League
+DELETE {{baseUrl}}/4/admin/2 HTTP/1.1
+Authorization: Bearer {{authToken}}
+
+
